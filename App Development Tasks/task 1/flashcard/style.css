@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#flashcard-container {
+    background: #e3e3e3;
+    border-radius: 8px;
+    padding: 30px 10px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #222;
+}
+
+.controls button, .edit-controls button, #save-btn, #cancel-btn {
+    margin: 5px 8px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.controls button:hover, .edit-controls button:hover, #save-btn:hover, #cancel-btn:hover {
+    background: #0056b3;
+}
+
+.edit-controls {
+    margin-bottom: 15px;
+}
+
+#form-container {
+    margin-top: 15px;
+}
+
+#question-input, #answer-input {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}

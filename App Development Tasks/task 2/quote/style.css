@@ -1,0 +1,46 @@
+body {
+    background: #f9f9f9;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote-container {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    text-align: center;
+    min-width: 320px;
+    max-width: 90vw;
+}
+
+#quote-text {
+    font-size: 1.3rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+#quote-author {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+#new-quote-btn {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#new-quote-btn:hover {
+    background: #444;
+}
